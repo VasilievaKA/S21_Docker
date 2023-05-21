@@ -1,0 +1,7 @@
+services:
+  server:
+    build: ./task5
+  proxy:
+    build: ./task6
+    ports:
+      - 81:8080
